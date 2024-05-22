@@ -8,11 +8,13 @@ public class EnemyScript : MonoBehaviour
     void Start()
     {
         // this does wonders
+        // the dangerous script is put
     }
 
     // Update is called once per frame
     void Update()
     {
         print("i am a banana");
+        print("I am a dangerous script booho!");
     }
 }
