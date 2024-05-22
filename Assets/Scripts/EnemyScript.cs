@@ -18,7 +18,7 @@ public class EnemyScript : MonoBehaviour
     {
         print("i am a banana");
         print("I am a dangerous script booho!");
-        print("THIS HAS BEEN DONE IN THE MAIN BRANCH!!");
+        print("THIS HAS BEEN DONE IN THE MAIN BRANCH AND THE ENEMYMOVEMENT SCRIPT!!");
 
     }
 }
