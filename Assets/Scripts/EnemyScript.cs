@@ -9,6 +9,8 @@ public class EnemyScript : MonoBehaviour
     {
         // this does wonders
         // the dangerous script is put
+
+
     }
 
     // Update is called once per frame
@@ -16,5 +18,7 @@ public class EnemyScript : MonoBehaviour
     {
         print("i am a banana");
         print("I am a dangerous script booho!");
+        print("THIS HAS BEEN DONE IN THE MAIN BRANCH!!");
+
     }
 }
