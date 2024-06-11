@@ -1,44 +1,45 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
-public class raycast : MonoBehaviour
+public class Raycast : MonoBehaviour
 {
     public GameObject prefab;
-    bool mayspawn = true;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool mayspawn = true;
+    public Camera camera;
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        mayspawn = true;
+        Debug.Log(mayspawn);
         if (Input.GetKeyDown("1"))
         {
+            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, -Vector3.up, out hit))
+            if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.tag == "MayBuild")
+                if (hit.collider.CompareTag("MayBuild"))
                 {
-                    if (hit.collider.tag == "Tower")
+                    mayspawn = true;
+
+                    // Check for existing Tower at the hit location
+            /*      Collider[] hitColliders = Physics.OverlapSphere(hit.point, 0.5f);
+                    foreach (Collider collider in hitColliders)
                     {
-                        mayspawn = false;
-                    }
-                    if (mayspawn)
+                        if (collider.CompareTag("Tower"))
+                        {
+                            mayspawn = false;
+                            break;
+                        }
+                  }*/
+
+                    if (mayspawn && Money.coins >= 5)
                     {
-                        Vector3 spawnPosition = new Vector3(transform.position.x, 0, transform.position.z);
+                        Money.coins -= 5;
+                        Vector3 spawnPosition = new Vector3(hit.point.x, 0, hit.point.z); // Use hit point
                         Instantiate(prefab, spawnPosition, Quaternion.identity);
                     }
-
-
                 }
             }
         }
-        print(mayspawn);
     }
 }

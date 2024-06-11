@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MayBuild
   - Tower
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - MayBuild
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Tower
+  - Enemy
+  - Player
   - 
   - 
   - 

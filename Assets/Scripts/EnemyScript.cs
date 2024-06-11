@@ -5,21 +5,19 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public bool HP;
-    public bool ATK; 
-
-    void Start()
+    public int HP;
+    public GameObject Enemy;
+    public int ATK;
+    public static int kills = 0;
+    public void TakeDamage(int damage)
     {
-        // this does wonders
-        // the dangerous script is put
+        HP = HP - damage;
 
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-
+        if (HP < 0)
+        {
+            Destroy(Enemy);
+            kills++;
+            Money.coins = Money.coins + 1;
+        }
     }
 }

@@ -1,0 +1,673 @@
+# J.A.C.K. 1.1.3773 Freeware MTL file
+# 61 materials
+newmtl GENERIC77
+map_Ka generic77.tga
+map_Kd generic77.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LED130
+map_Ka led130.tga
+map_Kd led130.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LIGHTS_LEFT
+map_Ka lights_left.tga
+map_Kd lights_left.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LIGHTS_SIGN
+map_Ka lights_sign.tga
+map_Kd lights_sign.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl CITYTEMP
+map_Ka citytemp.tga
+map_Kd citytemp.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl HWROADEN
+map_Ka hwroaden.tga
+map_Kd hwroaden.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl AN_BUILDING1
+map_Ka an_building1.tga
+map_Kd an_building1.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl +0~LIGHT3A
+map_Ka +0~light3a.tga
+map_Kd +0~light3a.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl TNNL_W7
+map_Ka tnnl_w7.tga
+map_Kd tnnl_w7.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl CRETE3_WALL01B
+map_Ka crete3_wall01b.tga
+map_Kd crete3_wall01b.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl -2TNNL_W13A
+map_Ka -2tnnl_w13a.tga
+map_Kd -2tnnl_w13a.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl !WATERBLUE
+map_Ka !waterblue.tga
+map_Kd !waterblue.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl ZB_BUILDING12
+map_Ka zb_building12.tga
+map_Kd zb_building12.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl +0~LIGHT4A
+map_Ka +0~light4a.tga
+map_Kd +0~light4a.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl GENERIC027
+map_Ka generic027.tga
+map_Kd generic027.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl A601
+map_Ka a601.tga
+map_Kd a601.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl GENERIC028
+map_Ka generic028.tga
+map_Kd generic028.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl A602
+map_Ka a602.tga
+map_Kd a602.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl HWROADEX
+map_Ka hwroadex.tga
+map_Kd hwroadex.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl POINTER
+map_Ka pointer.tga
+map_Kd pointer.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LED100
+map_Ka led100.tga
+map_Kd led100.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl TNNL_SWRC2
+map_Ka tnnl_swrc2.tga
+map_Kd tnnl_swrc2.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl HWROAD
+map_Ka hwroad.tga
+map_Kd hwroad.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl CPROAD
+map_Ka cproad.tga
+map_Kd cproad.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl -2OUT_GRSS1
+map_Ka -2out_grss1.tga
+map_Kd -2out_grss1.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl A1_1
+map_Ka a1_1.tga
+map_Kd a1_1.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl TNNL_C3B
+map_Ka tnnl_c3b.tga
+map_Kd tnnl_c3b.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LEDX
+map_Ka ledx.tga
+map_Kd ledx.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl ROAD
+map_Ka road.tga
+map_Kd road.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LEDMERGE
+map_Ka ledmerge.tga
+map_Kd ledmerge.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl G300_1A
+map_Ka g300_1a.tga
+map_Kd g300_1a.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl G300_2
+map_Ka g300_2.tga
+map_Kd g300_2.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LEDPART
+map_Ka ledpart.tga
+map_Kd ledpart.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LIGHTS_RIGHT
+map_Ka lights_right.tga
+map_Kd lights_right.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl ZB_BUILDING071
+map_Ka zb_building071.tga
+map_Kd zb_building071.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl AVERD
+map_Ka averd.tga
+map_Kd averd.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LED80
+map_Ka led80.tga
+map_Kd led80.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl GENERIC95
+map_Ka generic95.tga
+map_Kd generic95.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl GENERIC99
+map_Ka generic99.tga
+map_Kd generic99.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl SBWY_STEEL3
+map_Ka sbwy_steel3.tga
+map_Kd sbwy_steel3.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl -1OUT_GRSS1
+map_Ka -1out_grss1.tga
+map_Kd -1out_grss1.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl EXIT34
+map_Ka exit34.tga
+map_Kd exit34.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl GENERIC62
+map_Ka generic62.tga
+map_Kd generic62.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl ZB_BUILDING081
+map_Ka zb_building081.tga
+map_Kd zb_building081.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl +0~LIGHT6A
+map_Ka +0~light6a.tga
+map_Kd +0~light6a.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl STREETSIGN_NORT
+map_Ka streetsign_nort.tga
+map_Kd streetsign_nort.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl ASFALT
+map_Ka asfalt.tga
+map_Kd asfalt.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl CRETE3_WALL01
+map_Ka crete3_wall01.tga
+map_Kd crete3_wall01.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl METRO_ES_POINT
+map_Ka metro_es_point.tga
+map_Kd metro_es_point.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LED50
+map_Ka led50.tga
+map_Kd led50.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl CRETE3_WALL02
+map_Ka crete3_wall02.tga
+map_Kd crete3_wall02.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl AN_BUILDING
+map_Ka an_building.tga
+map_Kd an_building.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl HWROADSP
+map_Ka hwroadsp.tga
+map_Kd hwroadsp.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl TNNL_FLR4C
+map_Ka tnnl_flr4c.tga
+map_Kd tnnl_flr4c.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl C3A2B_REAC2
+map_Ka c3a2b_reac2.tga
+map_Kd c3a2b_reac2.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl CA1X_CON1B
+map_Ka ca1x_con1b.tga
+map_Kd ca1x_con1b.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl STEEL
+map_Ka steel.tga
+map_Kd steel.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl C3A2A_TELRED1D
+map_Ka c3a2a_telred1d.tga
+map_Kd c3a2a_telred1d.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl SUBWAY_LIGHTS
+map_Ka subway_lights.tga
+map_Kd subway_lights.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl LAB1_W6A
+map_Ka lab1_w6a.tga
+map_Kd lab1_w6a.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
+newmtl STREETSIGN_SOUT
+map_Ka streetsign_sout.tga
+map_Kd streetsign_sout.tga
+Ka 1.000 1.000 1.000
+Kd 0.800 0.800 0.800
+Ks 0.025 0.025 0.025
+Ke 0.000 0.000 0.000
+Ns 96.000
+Ni 1.000
+d 1.000
+illum 2
