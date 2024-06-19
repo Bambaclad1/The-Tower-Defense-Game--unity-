@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Tower : MonoBehaviour
@@ -5,16 +6,29 @@ public class Tower : MonoBehaviour
     public float attackCooldown = 1.0f; // Time between attacks
     private float attackTimer = 0.0f;
     public int damage;
+    public float targetTime = 0.5f;
+    public ParticleSystem particleSystem;
 
-    void Update()
+    private List<ParticleCollisionEvent> colEvents = new List<ParticleCollisionEvent>();
+
+    private void Start()
     {
-        if (attackTimer > 0)
+        particleSystem = GetComponent<ParticleSystem>();
+    }
+
+    private void Update()
+    {
+        targetTime -= Time.deltaTime;
+
+        attackTimer -= Time.deltaTime;
+
+        if (targetTime < 0f)
         {
-            attackTimer -= Time.deltaTime;
+            particleSystem.Stop();
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
         {
@@ -22,7 +36,7 @@ public class Tower : MonoBehaviour
         }
     }
 
-    void OnTriggerStay(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Enemy") && attackTimer <= 0)
         {
@@ -31,7 +45,7 @@ public class Tower : MonoBehaviour
         }
     }
 
-    void AttackEnemy(GameObject enemy)
+    private void AttackEnemy(GameObject enemy)
     {
         Debug.Log("Attacking enemy: " + enemy.name);
 

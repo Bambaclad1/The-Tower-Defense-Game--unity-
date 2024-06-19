@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e592a338f3383ca489d4c8eb6b7dad27
+  - enabled: 1
+    path: Assets/Scenes/lev 1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/babypark.unity
+    guid: e5c5275dc1e50af47a7cb544129759b7
+  - enabled: 1
+    path: Assets/Scenes/OpenWorld.unity
+    guid: 38ef08f7de6c64148badfcbe3afc3bd1
   m_configObjects: {}

@@ -8,7 +8,7 @@ public class WaveScript : MonoBehaviour
     public GameObject prefab;
     public Vector3 Location;
     internal static int Wave = 1;
-    public float targetTime = 10.0f;
+    public float targetTime = 5f;
     public static string GlobalMsg = "null";
     public GameObject TMP;
 
@@ -39,17 +39,17 @@ public class WaveScript : MonoBehaviour
 
     private void Wave1()
     {
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 5; i++)
         {
             if (targetTime < 0)
             {
                 TMP.SetActive(false);
                 Instantiate(prefab, Location, Quaternion.identity);
-                targetTime = 5;
+                targetTime = 6;
             }
         }
 
-        if (EnemyScript.kills == 5)
+        /*if (EnemyScript.kills == 5)
         {
             targetTime = 20.0f;
             if (targetTime < 0)
@@ -57,6 +57,8 @@ public class WaveScript : MonoBehaviour
                 targetTime = 5.0f;
                 Wave = 2;
             }
+       
         }
+         */
     }
 }
