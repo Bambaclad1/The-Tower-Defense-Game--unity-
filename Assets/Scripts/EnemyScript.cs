@@ -17,7 +17,7 @@ public class EnemyScript : MonoBehaviour
         {
             Destroy(Enemy);
             kills++;
-            Money.coins = Money.coins + 1;
+            Money.coins++;
         }
     }
 }

@@ -73,6 +73,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9dbff309b50d4bf4f823b28ec28df69b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dbff309b50d4bf4f823b28ec28df69b, type: 3}
       propertyPath: m_TagString
       value: Tower
       objectReference: {fileID: 0}
@@ -90,9 +94,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9dbff309b50d4bf4f823b28ec28df69b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4613603482340429429}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9dbff309b50d4bf4f823b28ec28df69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 347534190517662373}
   m_SourcePrefab: {fileID: 100100000, guid: 9dbff309b50d4bf4f823b28ec28df69b, type: 3}
 --- !u!1 &3229333031204187801 stripped
 GameObject:
@@ -134,16 +135,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 3
   damage: 1
---- !u!114 &347534190517662373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3229333031204187801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43fdf9f880c61a84ab48374b851fc231, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  particleSystem: {fileID: 4457082112086544659, guid: 0777d38825a557541ac865e82f310e45, type: 3}
+  targetTime: 0.5
+  projectilePrefab: {fileID: 1528220161079387565, guid: 9fab78445082789479930fa774f43a23, type: 3}

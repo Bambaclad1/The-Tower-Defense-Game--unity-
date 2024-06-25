@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpoints:
+  - {fileID: 196651072023700682, guid: a9cd55770aa6c264f8c90d837635ce6c, type: 3}
   - {fileID: 5566828419014821010, guid: 691fa2db9735cf74bb2bc0e4c8994848, type: 3}
   - {fileID: 5525830287205142524, guid: 4fbc6cce8688e434bbc1dff64cd316c0, type: 3}
   - {fileID: 5269468464403988511, guid: 24419e4e08fd02f4faee6b066629ef4c, type: 3}

@@ -29,7 +29,6 @@ public class BulletParticle : MonoBehaviour
     private void OnParticleCollision(GameObject other)
     {
         int events = particleSystem.GetCollisionEvents(other, colEvents);
-        Debug.Log("IM HIT!");
 
         for (int i = 0; i < events; i++)
         {

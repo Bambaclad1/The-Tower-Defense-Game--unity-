@@ -9,6 +9,9 @@ public class WaveTextModule : MonoBehaviour
     private string waveStringValue = "null";
 
     // Update is called once per frame
+    private void Start()
+    {
+    }
     void Update()
     {
         waveStringValue = WaveScript.Wave.ToString();

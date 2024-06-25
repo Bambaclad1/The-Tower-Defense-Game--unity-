@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class WaveScript : MonoBehaviour
 {
     public GameObject prefab;
     public Vector3 Location;
-    internal static int Wave = 1;
+    public static int Wave = 1;
     public float targetTime = 5f;
     public static string GlobalMsg = "null";
     public GameObject TMP;
@@ -20,8 +22,8 @@ public class WaveScript : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        Debug.Log("wavescript logger, wave = " + Wave);
         GlobalMsg = "You have " + targetTime.ToString("F2") + " seconds before wave 1 starts!";
-        Debug.Log(targetTime);
         targetTime -= Time.deltaTime;
         switch (Wave)
         {
@@ -39,7 +41,7 @@ public class WaveScript : MonoBehaviour
 
     private void Wave1()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 5; i++)  
         {
             if (targetTime < 0)
             {
@@ -47,18 +49,8 @@ public class WaveScript : MonoBehaviour
                 Instantiate(prefab, Location, Quaternion.identity);
                 targetTime = 6;
             }
+            break;
         }
-
-        /*if (EnemyScript.kills == 5)
-        {
-            targetTime = 20.0f;
-            if (targetTime < 0)
-            {
-                targetTime = 5.0f;
-                Wave = 2;
-            }
-       
-        }
-         */
     }
+        
 }
