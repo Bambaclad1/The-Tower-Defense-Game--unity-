@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37fc3c5d309e7bf46be3f99ccc9d84b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1888867268383900566, guid: 7dcffbd718c8d774cb18ffa1b1f60e17, type: 3}
+  prefab: {fileID: 3229333031204187801, guid: 997ed1959a3333c459252c4a9e1359fc, type: 3}
   camera: {fileID: 1156841284}
 --- !u!1 &1157301777
 GameObject:
@@ -1819,6 +1819,7 @@ MonoBehaviour:
   Location: {x: 29.535, y: 0.214, z: 7.481}
   targetTime: 5
   TMP: {fileID: 1377466133}
+  Enemies: 0
 --- !u!135 &1307222907
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4896,6 +4897,10 @@ PrefabInstance:
     - target: {fileID: 1528220161079387565, guid: 9fab78445082789479930fa774f43a23, type: 3}
       propertyPath: m_Name
       value: BULLET
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934274336243613661, guid: 9fab78445082789479930fa774f43a23, type: 3}
+      propertyPath: damage
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8026390447085961138, guid: 9fab78445082789479930fa774f43a23, type: 3}
       propertyPath: m_LocalPosition.x

@@ -30,7 +30,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.transform == target)
+        if (other.CompareTag("Enemy"))
         {
             EnemyScript enemyScript = other.GetComponent<EnemyScript>();
             if (enemyScript != null)

@@ -13,6 +13,7 @@ public class WaveScript : MonoBehaviour
     public float targetTime = 5f;
     public static string GlobalMsg = "null";
     public GameObject TMP;
+    public int Enemies = 0;
 
     // Start is called before the first frame update
     private void Start()
@@ -48,9 +49,15 @@ public class WaveScript : MonoBehaviour
                 TMP.SetActive(false);
                 Instantiate(prefab, Location, Quaternion.identity);
                 targetTime = 6;
+                if (Enemies > 6)
+                {
+                    Wave++;
+                }
             }
             break;
+
         }
+
     }
-        
+
 }
