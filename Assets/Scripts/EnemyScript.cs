@@ -9,6 +9,11 @@ public class EnemyScript : MonoBehaviour
     public GameObject Enemy;
     public int ATK;
     public static int kills = 0;
+
+    public void Update()
+    {
+        Debug.Log(Enemy);
+    }
     public void TakeDamage(int damage)
     {
         HP = HP - damage;
