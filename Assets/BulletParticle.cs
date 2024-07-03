@@ -21,8 +21,8 @@ public class BulletParticle : MonoBehaviour
         if (targetTime < 0f)
         {
             particleSystem.Stop();
+            targetTime = 5f;
         }
-        targetTime = 5f;
 
     }
 
@@ -32,6 +32,7 @@ public class BulletParticle : MonoBehaviour
 
         for (int i = 0; i < events; i++)
         {
+
         }
     }
 }

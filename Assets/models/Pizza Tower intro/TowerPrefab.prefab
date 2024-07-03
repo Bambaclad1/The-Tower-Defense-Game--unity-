@@ -133,7 +133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713fd7199a5476945bc7657a4555d542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 3
+  attackCooldown: 2
   damage: 1
-  targetTime: 0.5
   projectilePrefab: {fileID: 1528220161079387565, guid: 9fab78445082789479930fa774f43a23, type: 3}

@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 5
-  Enemy: {fileID: 7386344216047358877}
   ATK: 0
 --- !u!135 &1074673315520075407
 SphereCollider:
@@ -186,7 +185,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 2
+  m_Radius: 2.66
   m_Center: {x: 0, y: 3.51, z: 0}
 --- !u!54 &4676222258787782583
 Rigidbody:

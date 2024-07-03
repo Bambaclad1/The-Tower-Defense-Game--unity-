@@ -1,28 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public int HP;
-    public GameObject Enemy;
-    public int ATK;
+    public int HP = 5; // Instance variable for health
     public static int kills = 0;
 
-    public void Update()
+    private void Update()
     {
-        Debug.Log(Enemy);
+        //Debug.Log($"{gameObject.name} HP: {HP}"); 
     }
+
     public void TakeDamage(int damage)
     {
-        HP = HP - damage;
-
-        if (HP < 0)
+        HP -= damage;
+        if (HP <= 0)
         {
-            Destroy(Enemy);
-            kills++;
-            Money.coins++;
+            godie();
         }
+    }
+
+    private void godie()
+    {
+        kills++;
+        Money.coins++;
+        Destroy(gameObject);
     }
 }
