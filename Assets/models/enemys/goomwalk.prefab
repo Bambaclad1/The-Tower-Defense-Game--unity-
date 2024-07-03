@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 5
-  ATK: 0
 --- !u!135 &1074673315520075407
 SphereCollider:
   m_ObjectHideFlags: 0

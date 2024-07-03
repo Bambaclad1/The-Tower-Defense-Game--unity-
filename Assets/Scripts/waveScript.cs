@@ -8,6 +8,7 @@ using UnityEngine;
 public class WaveScript : MonoBehaviour
 {
     public GameObject prefab;
+    public GameObject Koopa;
     public Vector3 Location;
     public static int Wave = 1;
     public float targetTime = 5f;
@@ -23,7 +24,7 @@ public class WaveScript : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        Debug.Log("wavescript logger, wave = " + Wave);
+        Debug.Log(EnemyScript.kills);
         GlobalMsg = "You have " + targetTime.ToString("F2") + " seconds before wave 1 starts!";
         targetTime -= Time.deltaTime;
         switch (Wave)
@@ -33,31 +34,56 @@ public class WaveScript : MonoBehaviour
                 break;
 
             case 2:
+                Debug.Log("Im at wave two!");
+                Wave2();
                 break;
 
             case 3:
+                Debug.Log("Im at wave three!!");
+                Wave3();
                 break;
         }
     }
 
     private void Wave1()
     {
-        for (int i = 0; i < 5; i++)  
+        if (targetTime < 0)
         {
-            if (targetTime < 0)
+            TMP.SetActive(false);
+            Instantiate(prefab, Location, Quaternion.identity);
+            if (EnemyScript.kills > 3) // dit is Value + 2 en dan gaat hij naar de volgende wave...?
             {
-                TMP.SetActive(false);
-                Instantiate(prefab, Location, Quaternion.identity);
-                targetTime = 6;
-                if (Enemies > 6)
-                {
-                    Wave++;
-                }
+                Wave++;
             }
-            break;
-
+            targetTime = 6;
         }
-
     }
 
+    private void Wave2()
+    {
+        if (targetTime < 0)
+        {
+            Instantiate(Koopa, Location, Quaternion.identity);
+            Instantiate(Koopa, Location, Quaternion.identity);
+            if (EnemyScript.kills > 10) // dit is Value + 2 en dan gaat hij naar de volgende wave...?
+            {
+                Wave++;
+            }
+            targetTime = 6;
+        }
+    }
+
+    private void Wave3()
+    {
+        if (targetTime < 0)
+        {
+            Instantiate(prefab, Location, Quaternion.identity);
+            Instantiate(Koopa, Location, Quaternion.identity);
+            if (EnemyScript.kills > 5) // dit is Value + 2 en dan gaat hij naar de volgende wave...?
+            {
+                Wave++;
+            }
+            targetTime = 5;
+        }
+    }
 }

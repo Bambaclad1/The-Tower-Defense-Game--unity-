@@ -1,10 +1,16 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class EnemyScript : MonoBehaviour
 {
-    public int HP = 5; // Instance variable for health
+    public int HP = 5; 
+    public int CoinReward = 1;
     public static int kills = 0;
 
+    private void Start()
+    {
+        kills++;
+    }
     private void Update()
     {
         //Debug.Log($"{gameObject.name} HP: {HP}"); 
@@ -21,8 +27,7 @@ public class EnemyScript : MonoBehaviour
 
     private void godie()
     {
-        kills++;
-        Money.coins++;
+        Money.coins = Money.coins + CoinReward;
         Destroy(gameObject);
     }
 }

@@ -1,15 +1,11 @@
-using JetBrains.Annotations;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 public class PathEnd : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public static int GameHP = 2;
+    public static int GameHP = 5;
     public GameObject scaryending;
 
-    void Start()
+    private void Start()
     {
     }
 
@@ -26,10 +22,8 @@ public class PathEnd : MonoBehaviour
         }
     }
 
-    void GameOver()
+    private void GameOver()
     {
         scaryending.SetActive(true);
     }
-    
-    
 }

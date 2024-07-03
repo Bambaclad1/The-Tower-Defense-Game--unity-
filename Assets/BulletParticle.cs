@@ -1,9 +1,13 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletParticle : MonoBehaviour
 {
+    /*
+     * THIS
+     * IS
+     * UNUSED
+     */
     public float targetTime = 5f;
     public ParticleSystem particleSystem;
 
@@ -23,7 +27,6 @@ public class BulletParticle : MonoBehaviour
             particleSystem.Stop();
             targetTime = 5f;
         }
-
     }
 
     private void OnParticleCollision(GameObject other)
@@ -32,7 +35,6 @@ public class BulletParticle : MonoBehaviour
 
         for (int i = 0; i < events; i++)
         {
-
         }
     }
 }

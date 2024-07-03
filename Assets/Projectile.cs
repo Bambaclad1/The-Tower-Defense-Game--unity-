@@ -16,15 +16,13 @@ public class Projectile : MonoBehaviour
     {
         if (target == null)
         {
-            Destroy(gameObject); // Destroy the projectile if there is no target
+            Destroy(gameObject);
             return;
         }
 
-        // Move towards the target
         Vector3 direction = (target.position - transform.position).normalized;
         transform.position += direction * speed * Time.deltaTime;
 
-        // Optional: Rotate the projectile to face the target
         transform.rotation = Quaternion.LookRotation(direction);
     }
 
@@ -37,7 +35,7 @@ public class Projectile : MonoBehaviour
             {
                 enemyScript.TakeDamage(damage);
             }
-            Destroy(gameObject); // Destroy the projectile upon collision
+            Destroy(gameObject);
         }
     }
 }
