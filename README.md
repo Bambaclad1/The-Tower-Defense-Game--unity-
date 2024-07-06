@@ -31,7 +31,11 @@ You are a creeper, who can fly around in a "spectator mode" Point of view to sto
 The game uses a script which allows you to fly just like in View Mode in Unity, with Q and E you can adjust your views and R you can reset your view to start, incase it breaks.
 
 The game makes use of a Pathfinding script which works as following.
+
+
 ##### Enemyscript - Visual Example
+
+
 There are nodes layed on the map.
 ![](https://images-ext-1.discordapp.net/external/UkiNfzdLdJhJEXkARdI1K8o6ZdtdyX8bgK0N8_ugaqI/https/i.ibb.co/dGStbwZ/image.png?format=webp&quality=lossless&width=596&height=592)
 
@@ -39,8 +43,10 @@ The enemy will spawn with help of the wavescript (explained in the Scripts secti
 ![](https://images-ext-1.discordapp.net/external/0-0LvoLg2wkD83fRt9TITWUHkqj1HhEGsWfdPLhqUus/https/i.ibb.co/F4NHNvt/image.png?format=webp&quality=lossless&width=588&height=592)
 
 Eventually, the so called "Pathfinding script" (explained later aswell) will read the so called nodes locations on the map, it will make the enemy move towards the invisible nodes (they aren't invisible but use your imagination.)
-It will turn to them aswell, and check the object is nearby the checkpoint with a if statement, if that is true it will advance into the next checkpoint.
+It will turn to them aswell, and check the object is nearby the checkpoint with a if statement,
+if that is true it will advance into the next checkpoint.
 ![](https://images-ext-1.discordapp.net/external/xiURPaVq7Du6Tfd5GOpF7j17Krs9XcnOKonmL00CP7A/https/i.ibb.co/3RzYZ1L/image.png?format=webp&quality=lossless&width=594&height=591)
+
 
 ##### Towerscript- Visual Example
 This had to be one of the hardest ones, not only did i put the wrong attack code on the object, there were so many things done wrong. I managed to figure it out eventually.
@@ -58,32 +64,38 @@ Here, this so called particle will take trhe direction of the enemy and move tow
 ![](https://media.discordapp.net/attachments/1259254041280643072/1259261281622294578/image.png?ex=668b09f5&is=6689b875&hm=cbf06b385a2cfb4bc45cd518b9b53b200c29c7c35c6d80dcb24b63a582878f1b&=&format=webp&quality=lossless&width=600&height=600)
 
 ## Scripts 
-The game uses a ton of scripts which will all be explained below.
+The game uses a ton of scripts which will all be summarized below.
 
 ##### EnemyScript.cs
 
 
 ```C
+// This is the enemy script! Enemys will be getting instancieerd with this.
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 public class EnemyScript : MonoBehaviour
 {
+// 3 Values will be made to be used later on.
     public int HP = 5; 
     public int CoinReward = 1;
     public static int kills = 0;
 
     private void Start()
     {
+    // So, everytime a enemy will spawn, it will give the player a kill. This might look unlogic, but the name choice wasn't done right. 
+    // This has to do with the wave script, 
         kills++;
     }
     private void Update()
     {
+    // This was used for debugging reasons.
         //Debug.Log($"{gameObject.name} HP: {HP}"); 
     }
 
     public void TakeDamage(int damage)
     {
+    // Another script will be calling this function, hence the **public** function.
         HP -= damage;
         if (HP <= 0)
         {
@@ -93,6 +105,7 @@ public class EnemyScript : MonoBehaviour
 
     private void godie()
     {
+    // If the hp reaches zero, give player a coin reward and destroy.
         Money.coins = Money.coins + CoinReward;
         Destroy(gameObject);
     }
