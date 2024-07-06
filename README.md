@@ -117,7 +117,9 @@ public class EnemyScript : MonoBehaviour
 ```
 ## Requirements check
 ![](https://cdn.discordapp.com/attachments/1176615300830089266/1239578494195728426/image.png?ex=668a9fef&is=66894e6f&hm=c3d0afdc61571bafa540cc38fd0629bbe64b612742c54ffa4134c77d4964aed6&)
+
 *This is a check for the developer to see if it qualifes for the college project.*
+
 Level = Goed, er zijn 3 verschillende levels.
 Towers = Goed, ik denk dat het duidelijk is wat het verschil is.
 Kogels = Voldoende. Er is geen variate, maar er is wel verschil in het vertraging. (delay)
