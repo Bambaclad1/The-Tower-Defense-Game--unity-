@@ -14,20 +14,39 @@ Goomba's Returnal is a tower defense game inspired by Mario Tower Defense flash 
 - Spawn 3D Towers ingame!
 - Nintendo Assets (please nintendo don't sue me :pray:)
 - Pretty cool copyrighted music
+- Custom super cool triple A quality animations!!!
 - and more!
 
 ## Contents
 - Gameplay
+- Controls
 - Mechanics
 - Scripts
+- Maps and Levels
 - Requirements check
 - Dev Notes / Version Control
 - Conclusion
+
 
 ## Gameplay
 
 This game is largely inspired by the Bloons TD series made by Ninja Kiwi. It also takes a large inspiration from old school tower defense flash games.
 You are a creeper, who can fly around in a "spectator mode" Point of view to stop the goombas and its allies to attack your home. Will this go as planned? Place towers, and upgrade them (strategically), while also trying to get rid of goomba and its friends!
+
+## Controls
+
+- Movement controls
+W - Move forward
+A - Strafe left
+S - Move backwards
+D - Strafe right
+Q - Fly up
+E - Fly down
+R - Reset view to origin
+- Tower controls
+1 - Spawn tower 1
+2 - Spawn tower 2
+
 
 ## Mechanics
 
@@ -72,7 +91,7 @@ The game uses a ton of scripts which will all be summarized below.
 ##### EnemyScript.cs
 
 
-```C
+```CS
 // This is the enemy script! Enemys will be getting instancieerd with this.
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -115,6 +134,17 @@ public class EnemyScript : MonoBehaviour
 }
 
 ```
+
+## Maps and Levels
+
+The first level takes place in a grassy field, it serves as a beginner level where the player can  learn controls and understand the mechanics. This map was made by using Unity's own terrain editor.
+![](https://media.discordapp.net/attachments/1166468147365286051/1259841125246566470/image.png?ex=668d25fa&is=668bd47a&hm=838822be755030086962f8b917e1a7d6c6573e08b7745467647c97eab6b1eb0b&=&format=webp&quality=lossless&width=590&height=460)
+
+The second map is Baby Park from Mario Kart 8 Deluxe, its harder than the grassy map, because of low number of buildable brushes.
+
+The third map takes place in a city, It is the hardest level with the same reasons as Baby Park, but the map is larger and thus allows more enemies to spawn. This map isn't made using the terrain editor, but with Valve's Hammer Editor. This results in easier mapping and higher optimizations due to engine limits that the original engine enforces on. 
+![](https://media.discordapp.net/attachments/1166468147365286051/1259843574942404659/image.png?ex=668d2843&is=668bd6c3&hm=5efcb3e71e340f6ca4c69658391228c0bb8ba0eb6f27fa2424f0a8292d8abaa0&=&format=webp&quality=lossless&width=819&height=460)
+
 ## Requirements check
 ![](https://cdn.discordapp.com/attachments/1176615300830089266/1239578494195728426/image.png?ex=668a9fef&is=66894e6f&hm=c3d0afdc61571bafa540cc38fd0629bbe64b612742c54ffa4134c77d4964aed6&)
 
